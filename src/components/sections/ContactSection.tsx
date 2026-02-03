@@ -20,30 +20,26 @@ export const ContactSection = () => {
               transparent 10px,
               hsl(var(--primary)) 10px,
               hsl(var(--primary)) 11px
-            )`
+            )`,
           }}
         />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-
           {/* Left Content */}
           <AnimateOnScroll animation="slide-right">
             <p className="text-primary uppercase tracking-[0.3em] text-sm mb-4">
               Besuchen Sie uns
             </p>
-
             <h2
               id="contact-heading"
               className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6"
             >
               Bereit für Ihren neuen Look?
             </h2>
-
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              Vereinbaren Sie noch heute Ihren Termin und erleben Sie
-              erstklassigen Service in stilvollem Ambiente.
+              Vereinbaren Sie noch heute Ihren Termin und erleben Sie erstklassigen Service in stilvollem Ambiente.
             </p>
 
             <div className="space-y-6 mb-10">
@@ -55,7 +51,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Adresse</h4>
                   <p className="text-muted-foreground">
-                    Färberstraße 54, 90402 Nürnberg
+                    Siederstraße 1, 52062 Aachen
                   </p>
                 </div>
               </div>
@@ -68,10 +64,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefon</h4>
                   <a
-                    href="tel:015118311067"
+                    href="tel:015771201309"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    015118311067
+                    015771201309
                   </a>
                 </div>
               </div>
@@ -84,9 +80,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo. – Fr. 10:00–20:00 Uhr
-                    <br />
-                    Sa. 10:00–19:00 Uhr
+                    Mo. – Sa. 9:00–19:00 Uhr
                   </p>
                 </div>
               </div>
@@ -97,9 +91,8 @@ export const ContactSection = () => {
                 <MessageCircle className="w-5 h-5 mr-2" />
                 Rechts unten Chat starten
               </Button>
-
               <Button variant="goldOutline" size="xl" asChild>
-                <a href="tel:+4917629117689">Jetzt anrufen</a>
+                <a href="tel:015771201309">Jetzt anrufen</a>
               </Button>
             </div>
           </AnimateOnScroll>
@@ -109,7 +102,7 @@ export const ContactSection = () => {
             <div className="relative">
               <div className="aspect-square lg:aspect-[4/5] rounded-sm overflow-hidden border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5187.871688976504!2d11.069183276892435!3d49.44792955903806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a835434d4d%3A0xfba938ebd99d6f67!2sTop%20Salon%20-%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769505288553!5m2!1sde!2sde"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40385.6415661012!2d6.080269508892212!3d50.75513124309127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c099177535bdd9%3A0xbcb1beefe8fd267c!2sBarber%20Brother's!5e0!3m2!1sde!2sde!4v1770150852550!5m2!1sde!2sde"
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
@@ -131,7 +124,6 @@ export const ContactSection = () => {
               </div>
             </div>
           </AnimateOnScroll>
-
         </div>
       </div>
     </section>
