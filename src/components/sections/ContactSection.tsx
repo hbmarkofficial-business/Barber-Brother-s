@@ -14,13 +14,8 @@ export const ContactSection = () => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `repeating-linear-gradient(
-              45deg,
-              transparent,
-              transparent 10px,
-              hsl(var(--primary)) 10px,
-              hsl(var(--primary)) 11px
-            )`,
+            backgroundImage:
+              'repeating-linear-gradient( 45deg, transparent, transparent 10px, hsl(var(--primary)) 10px, hsl(var(--primary)) 11px )',
           }}
         />
       </div>
@@ -78,7 +73,9 @@ export const ContactSection = () => {
                   <Clock className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
+                  <h4 className="font-semibold text-foreground mb-1">
+                    Öffnungszeiten
+                  </h4>
                   <p className="text-muted-foreground">
                     Mo. – Sa. 9:00–19:00 Uhr
                   </p>
